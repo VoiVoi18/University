@@ -1,0 +1,57 @@
+#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_NONSTDC_NO_WARNINGS
+#include <stdlib.h>
+#include <locale.h>
+#include <stdio.h>
+
+struct student
+{
+	char famil[20];
+	char name[20], facult[20];
+	int Nomzach;
+};
+
+int main() {
+	setlocale(LC_ALL, "Russian");
+	system("chcp 1251");
+	struct student p[4];
+
+	for (int i = 1; i < 4; i++) {
+		printf("%d", i);
+		printf("\n Введите фамилию студента: ");
+		scanf("%s", &p[i].famil);
+		printf(" Введите имя студента: ");
+		scanf("%s", &p[i].name);
+		printf(" Введите факультет студента: ");
+		scanf("%s", &p[i].facult);
+		printf(" Введите номер зачетки: ");
+		scanf("%d", &p[i].Nomzach);
+	}
+	for (int i = 1; i < 4; i++)
+	{
+		printf(" Cтудент % s % s обучается на факультете % s, номер зачётной книжки % d \n ", p[i].famil, p[i].name, p[i].facult, p[i].Nomzach);
+
+	}
+	char fam[20];
+	printf("\nВведите фамилию студента: ");
+	scanf("%s", fam);
+	
+	int i;
+	for (i = 1; i < 4; i++)
+	{
+		if (strcmp(p[i].famil, fam)==0)
+		{
+			printf("Фамилия: %s\n", p[i].famil);
+			printf("Имя: %s\n", p[i].name);
+			printf("Факультет: %s\n", p[i].facult);
+			printf("Номер зач.книжки: %d\n", p[i].Nomzach);
+			
+			break;
+		}
+		else
+		{
+			printf("Информация не найдена\n");
+		}
+	}
+
+}
