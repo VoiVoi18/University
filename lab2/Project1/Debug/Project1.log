@@ -1,0 +1,6 @@
+﻿  Source.c
+D:\ПГУ\2 курс\ЛиОАвИЗ\Project1\Project1\Source.c(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\Project1\Project1\Source.c(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\Project1\Project1\Source.c(11,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\ПГУ\2 курс\ЛиОАвИЗ\Project1\Project1\Source.c(24,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Project1.vcxproj -> D:\ПГУ\2 курс\ЛиОАвИЗ\Project1\Debug\Project1.exe
