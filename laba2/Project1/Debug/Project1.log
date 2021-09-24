@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\voino\OneDrive\Рабочий стол\Project1\Project1\Source.c(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\voino\OneDrive\Рабочий стол\Project1\Project1\Source.c(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\voino\OneDrive\Рабочий стол\Project1\Project1\Source.c(80,25): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\voino\OneDrive\Рабочий стол\Project1\Project1\Source.c(75,15): warning C4101: 'k': unreferenced local variable
+  Project1.vcxproj -> C:\Users\voino\OneDrive\Рабочий стол\Project1\Debug\Project1.exe
