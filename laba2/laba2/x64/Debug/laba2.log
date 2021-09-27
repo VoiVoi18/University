@@ -1,0 +1,8 @@
+﻿  Source.c
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(11,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(24,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(32,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\laba2\Source.c(32,11): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'int *'
+  laba2.vcxproj -> D:\ПГУ\2 курс\ЛиОАвИЗ\laba2\x64\Debug\laba2.exe

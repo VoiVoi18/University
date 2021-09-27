@@ -1,0 +1,6 @@
+﻿  Source.c
+D:\ПГУ\2 курс\ЛиОАвИЗ\Lab rab2\Lab rab2\Source.c(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\Lab rab2\Lab rab2\Source.c(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\ПГУ\2 курс\ЛиОАвИЗ\Lab rab2\Lab rab2\Source.c(18,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\ПГУ\2 курс\ЛиОАвИЗ\Lab rab2\Lab rab2\Source.c(32,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab rab2.vcxproj -> D:\ПГУ\2 курс\ЛиОАвИЗ\Lab rab2\x64\Debug\Lab rab2.exe
